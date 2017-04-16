@@ -16,7 +16,7 @@ function love.load()
   setupMapView()
   setupTileset()
   love.physics.setMeter(tileSize) --the height of a meter our worlds will be 64px
-  world = love.physics.newWorld(0, 10*64, true) --create a world for the bodies to exist in with horizontal gravity of 0 and vertical gravity of 9.81
+  world = love.physics.newWorld(0, 0*64, true) --create a world for the bodies to exist in with horizontal gravity of 0 and vertical gravity of 9.81
 
   objects = {}
 
